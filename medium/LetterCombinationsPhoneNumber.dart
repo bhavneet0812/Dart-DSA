@@ -36,18 +36,18 @@ void main() {
   // Example 1
   String digits1 = "23";
   final digits1Combinations = letterCombinations(digits1);
-  // print(digits1Combinations);
+  print(digits1Combinations);
   // Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
 
   // Example 2
-  // String digits2 = "";
-  // final digits2Combinations = letterCombinations(digits2);
-  // print(digits2Combinations);
+  String digits2 = "";
+  final digits2Combinations = letterCombinations(digits2);
+  print(digits2Combinations);
   // Output: []
 
   // Example 3
-  // String digits3 = "2";
-  // final digits3Combinations = letterCombinations(digits3);
-  // print(digits3Combinations);
+  String digits3 = "2";
+  final digits3Combinations = letterCombinations(digits3);
+  print(digits3Combinations);
   // Output: ["a","b","c"]
 }
